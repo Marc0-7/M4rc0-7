@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="it">
   <head>
     <title>Titolo</title>
@@ -6,7 +5,7 @@
   </head>
 <body>
   <p>
-    questo è un testo
+    questo è un testoo
   </p>
 </body>
 </html>
