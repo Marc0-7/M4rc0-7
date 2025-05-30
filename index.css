@@ -1,1 +1,82 @@
+body 
+{
+    background-color: #181A1B;
+      color: #D1D5DB;
+}
 
+header, footer 
+{
+    background-color: #232527;     
+                border-bottom: 1px solid #232527; /* per header */
+                border-top: 1px solid #232527; 
+}
+
+.title {color: #FAFAFA;}
+
+.intro-section 
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: stretch;
+  background: #181A1B;
+  height: 25vh; /* circa 1/4 della viewport */
+  padding: 2rem;
+  border-radius: 16px;
+  margin: 2rem 0;
+  box-shadow: 0 4px 32px #000a;
+  gap: 2rem;
+}
+
+.intro-buttons 
+{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.intro-buttons button 
+{
+  background: #232527;
+  color: blueviolet ;
+  border: none;
+  padding: 1rem 2rem;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  font-family: inherit;
+  cursor: pointer;
+  box-shadow: 0 2px 8px #5700a433;
+  transition: background 0.2s, color 0.2s;
+}
+
+.intro-buttons button:hover
+{
+  background: blueviolet;
+  color: #181A1B;
+}
+
+.intro-bio 
+{
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #D1D5DB;
+}
+
+.intro-bio h2 
+{
+    color: blueviolet;
+}
+
+@media (max-width: 800px) 
+{
+  .intro-section 
+  {
+    flex-direction: column;
+    height: auto;
+    gap: 1.5rem;
+  }
+}
