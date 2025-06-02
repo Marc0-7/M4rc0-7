@@ -1,1 +1,13 @@
+/* presentazione ricetta */
+.carbopresentazione {display:flex;
+                     align-items: center; 
+                     gap: 200px;}
+.titoli {font-size: 40px;} 
+
+/* impostazioni generali header footer */
+header, footer {background-color:black; 
+                 color:aliceblue; }
+             
+/* header */
+header {border-color: black;}                 
 
